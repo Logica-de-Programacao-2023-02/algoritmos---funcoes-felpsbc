@@ -6,7 +6,7 @@ import (
 
 func calcularMedia(slice []int) float64 {
 	if len(slice) == 0 {
-		return 0.0
+		return 0
 	}
 
 	soma := 0
